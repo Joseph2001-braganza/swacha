@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+.newsBox{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(237, 237, 237);
+}
+
+
+.area-heading h3{
+    font-size: 3rem;
+    color: #387a45;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.single-blog {
+    transition: all 300ms linear 0s;
+    position: relative;
+    margin-bottom: 30px;
+  
+    height: 100%;
+    box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.186);
+  
+}
+.short_details.left{
+    margin-left: 10px;
+}
+
+
+.short_details a{
+    text-decoration: none;
+    color:black;
+}
+
+.short_details a:hover{
+    color:black;
+}
+
+.single-blog.style-four .short_details {
+    position: relative;
+    background: #fff;
+    height: 100%;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    transition: all 300ms linear 0s;
+}
+
+.single-blog.style-four h4{
+    font-size: 20px !important;
+line-height: 26px !important;
+}
+
+.single-blog.style-four h4:hover{
+    font-size: 20px !important;
+line-height: 26px !important;
+color: #2f6d3b;
+}
+.single-blog:hover img {
+    transform: scale(1.1);
+}
+
+.single-blog .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 300ms linear 0s;
+}
+.thumb{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.statCard{
+    padding: 10px;
+    width: 100%;
+    height: 220px;
+    position: relative;
+    color: #fff;
+    background-color: #387a45;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.statCard h3.statValue{
+    font-weight: 1000;
+    font-size: 3.5rem;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.statCard p{
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.ourclients{
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 0;
+}
+
+.clientCard{
+    width: 100%;
+    height: 220px;
+    position: relative;
+    padding: 50px;
+    color: #fff;
+    background-color: #fff;
+    box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ourclients .clientCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.ourclients .clientCard:hover{
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+.testimonials{
+    background-color: rgb(237, 237, 237);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.testimonials-card{
+    background-color: #fff;
+    width: 100%;
+    padding: 40px 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials-layer{
+    position: absolute;
+    top: calc(100% - 5px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2f6d3b;
+    z-index: 1;
+    transition: 0.25s;
+}
+
+.testimonials-content{
+    position: relative;
+    z-index: 3;
+}
+
+
+.testimonials-card:hover .testimonials-layer{
+    top: 0;
+}
+
+.testimonials-card:hover .testimonials-content p,
+.testimonials-card:hover .testimonials-content .quotes-close,
+.testimonials-card:hover .testimonials-content .quotes-open,
+.testimonials-card:hover .testimonials-content h2,
+.testimonials-card:hover .testimonials-content h2 span{
+    color: #fff;
+}
+
+.testimonials-card:hover .testimonials-img{
+    border: 3px #fff solid;
+}
+
+.btn-green{
+    color: #387a45;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    min-height: 350px;
+    margin: 0px 20px;
+  }
+
+  .testimonials-content p{
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 0;
+
+  }
+  .quotes-open{
+      width: 100%;
+      text-align: left;
+      font-size: 50px;
+      font-family: serif;
+      height: 20px;
+  }
+  .quotes-close{
+    width: 100%;
+    text-align: right;
+    font-size: 50px;
+    line-height: 20px;
+    font-family: serif;
+    height: 20px;
+    margin-bottom: 20px;    
+}
+  .testimonials-content p span{
+    font-size: 50px;
+    line-height: 60px;
+
+}
+  .testimonials-content h2{
+    font-size: 20px;
+    font-weight: 800;
+    color: #387a45;
+
+}
+.testimonials-content h2 span{
+    font-size: 14px;
+    font-weight: 800;
+    color: #47a95b;
+
+}
+
+  .testimonials-img{
+      height: 100px;
+      width: 100px;
+      margin: 0 auto 10px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px #387a45 solid;
+  }
+
+  .testimonials-img img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+
+@media screen and (max-width:768px) {
+    .single-blog:hover img {
+        transform: scale(1);
+    }
+}
+
+.oswald{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  h4{
+      font-size:2em;
+  }
+  p{
+      font-size:1.3em;
+      line-height:1.1em;
+  }
+  .card {
+    width: 100%; 
+    height: 300px;
+    color:#D6D600;
+    overflow:hidden;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    background-color: black; /* fallback color */
+    background-position: center;
+    background-size: cover;
+    transition:all 0.3s ease-in-out;
+    opacity:1;
+  }
+  .card:hover .card-img,
+  .card:focus .card-img {
+    transform: scale(1.2);
+    opacity:0.5;
+    
+  }
+  
+  .card:hover .card-img-overlay{
+      color:white;
+      background:#2d6338be;
+  
+  }
+  
+  .card-img-overlay>h4, .card-img-overlay>p{
+      visibility:hidden;
+  }
+  
+  .card-img-overlay:hover h4, .card-img-overlay:hover p{
+      visibility: visible;
+  }
+  
+  .card:hover .card-img-overlay p{
+      font-size:1.5em;
+      letter-spacing:0.02em;
+  }
+  
+  .contentContainer {
+    width: 98%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom:30px;
+  }
+  /* Container for slider. 
+  Width set to 100% so player will fill it's parent container  */
+  
+  .sliderContainer {
+    width: 100%;
+  }
+  /* Slide/Video Caption */
+  .slideCaption {
+     position: relative;
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-top:10px;
+    padding-bottom:5px;
+    opacity:0.85;
+  }
+  /* Video Container DIV */
+  .video-container div {
+    background: black;
+  }
+  /* Video Thumbnail DIV */
+  .video-thumbnails div {
+    height: 75px;
+    background: black;
+    text-align: center;
+    /* Background Cover to fill DIV */
+    background-size: cover;
+  }
+  /* **************
+    VIDEO WRAPPER -  FORKED FROM CRAIG MONEY
+     https://codepen.io/pixelthing/pen/zGZKaQ
+  ************* */
+  
+  .videoWrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+  }
+  .videoWrapper43 {
+    padding-top: 75%;
+  }
+  .videoWrapper169 {
+    padding-top: 56%;
+  }
+  .videoIframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  
+  .videoPoster {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-size: cover;
+    text-indent: -999em;
+    overflow: hidden;
+    opacity: 1;
+    -webkit-transition: opacity 800ms, height 0s;
+    -moz-transition: opacity 800ms, height 0s;
+    transition: opacity 800ms, height 0s;
+    -webkit-transition-delay: 0s, 0s;
+    -moz-transition-delay: 0s, 0s;
+    transition-delay: 0s, 0s;
+  }
+  .videoWrapperActive .videoPoster {
+    opacity: 0;
+    height: 0;
+    -webkit-transition-delay: 0s, 800ms;
+    -moz-transition-delay: 0s, 800ms;
+    transition-delay: 0s, 800ms;
+  }
+  .videoIframe {
+    position: absolute;
+    top: 0;
+  }
+  /* *********
+    SVG PLAY BUTTON
+  ********** */
+  
+  .stroke-dotted {
+    stroke-dasharray: 4, 5;
+    stroke-width: 1px;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 4s infinite linear;
+    animation: spin 4s infinite linear;
+    -webkit-transition: opacity 1s ease, stroke-width 1s ease;
+    transition: opacity 1s ease, stroke-width 1s ease;
+  }
+  .stroke-solid {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 300;
+    stroke-width: 4px;
+    -webkit-transition: stroke-dashoffset 1s ease, opacity 1s ease;
+    transition: stroke-dashoffset 1s ease, opacity 1s ease;
+    opacity: 0;
+  }
+  .vid-icon {
+    -webkit-transition: -webkit-transform 200ms ease-out;
+    transition: -webkit-transform 200ms ease-out;
+    transition: transform 200ms ease-out;
+    transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
+  }
+  .play-vid:hover .stroke-dotted {
+    stroke-width: 4px;
+    opacity: 1;
+  }
+  .play-vid:hover .stroke-solid {
+    opacity: 1;
+    stroke-dashoffset: 300;
+  }
+  .play-vid:hover .icon {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  .play-vid {
+    cursor: pointer;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.85;
+    width: 110px;
+    height: 110px;
+  }
+  @-webkit-keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  /* Default Slick Slide */
+  .video-thumbnails .slick-slide {
+    /* Set Opacity so focus is on the centered slide.
+         Can apply CSS filters too. */
+    opacity: 0.65;
+    /* Set Transition ALL for smooth window resizing. */
+    transition: all 0.2s ease-in-out;
+    /* Scale down images not centered. */
+    transform: scale(0.8);
+    
+    /* Get rid of blue focus border. The focus border is ugly but important for accessibility. As active states look different - i.e. change in opacity and size - think it's OK to get rid of it on this slider. 
+  Good solution here ---> https://hackernoon.com/removing-that-ugly-focus-ring-and-keeping-it-too-6c8727fefcd2 */
+    
+    outline: none;
+    
+    /* Grab Hand Cursor */
+    
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+  }
+  .slick-slide {color:white;}
+  .video-thumbnails .slick-slide:hover {
+    /* Set Opacity so focus is on the centered slide.
+         Can apply CSS filters too. */
+    opacity: 1;
+    transform: scale(0.9);
+  }
+  .slick-slide.slick-center {
+    opacity: 1;
+    transform: scale(1);
+    cursor: pointer;
+  }
+  
+  /* Hide carousel until webpage is loaded to prevent FOUC - Flash Of Unstyled Content -
+  
+  Class is removed once page has loaded using jQuery  
+  
+  $(function() {
+      $('.no-fouc').removeClass('no-fouc');
+      console.log( "ready!" );
+  });
+  
+  */
+  
+  .no-fouc {visibility: hidden}
+  pre {overflow:auto;}
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-decoration: none;
+}
+
+.pageContainer{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #387a45;
+    overflow-x: scroll;
+    position: relative;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu{
+    width: 80%;
+    margin: 15px auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+}
+.logo{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.logo span{
+    color: #E0C097;
+    font-weight: 500;
+}
+.fa-align-justify{
+    
+    font-size: 1.3rem;
+}
+
+.main{
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: scroll;
+    background-color: rgb(237, 237, 237);
+    z-index: 5;
+    width: 100%;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+header{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.content{
+    max-width: 30rem;
+    text-align: center;
+    color: #FFF;
+}
+
+.btn{
+    background-color: #E0C097;
+    cursor: pointer;
+    border: 1px solid #FFF;
+    border-radius: .5rem;
+    padding: .9rem 1.3rem;
+    color:#fff;
+    transition: .2s linear;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+p{
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+
+.pageContainer.active .main{
+    animation: main-anim .5s ease;
+    transform: perspective(1200px) rotateY(25deg) translateZ(240px) scale(0.4);
+}
+
+@keyframes main-anim{
+from{
+    transform: translate(0);
+}
+to{
+    transform: perspective(1200px) rotateY(25deg) translateZ(240px) scale(0.4);
+}
+}
+
+.links{
+    position: absolute;
+    height: 100vh;
+    width: 30%;
+    top: 0; right: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: #EEE;
+    padding: .4rem 0;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: 1s;
+    opacity: 0;
+    transform: translateX(0);
+
+}
+.fa-times{
+    color: #47a95b;;
+    transform: rotate(90deg);
+    transition: .5s ease-in-out;
+}
+.links a:hover{
+    color: #E0C097;
+}
+
+.pageContainer.active .links a{
+    animation: apear 1s forwards ease;
+
+}
+
+@keyframes apear{
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.plastic{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
